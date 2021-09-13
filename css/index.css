@@ -1,50 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-  
-        :root {
-            font-family: "Bangers";
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-          }
-        header {
-            background-color: black;
-            text-align: center;
-            position: relative;
-        }
-        p {text-align: center;}
-        h2,h3 {text-align: center;}
 
+:root {
+    font-family: "Bangers";
+}
 
-        .box-container {
-            height: 100%;
-            width: 100%;
-            background-color: black;
-            font-size: 150%;
-            color: white;
-            display:grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            background-color: black;}
-            
-              .d1 {
-                text-align: center;
-                grid-column: 1 / 3;
-              }
-            
-              .d2 {
-                text-align: center;
-                grid-column: 3 / 5;
-              }
-              .d3 {
-                text-align: center;
-                grid-column: 1 / 3;
-              }
-              .d4 {
-                text-align: center;
-                grid-column: 3 / 5;
-              }
-        footer {
-            background-color: black;
-            text-align: center;
-        }
-        
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    text-align: center;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.box-container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-size: 150%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+
+.d1 {
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
+.d2 {
+    text-align: center;
+    grid-column: 3 / 5;
+}
+
+.d3 {
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
+.d4 {
+    text-align: center;
+    grid-column: 3 / 5;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
