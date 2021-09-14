@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     font-family: "Bangers";
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
 }
 
 img {
