@@ -11,19 +11,60 @@
 }
 
 .container {
-    max-width: 980px;
     margin: auto;
+    max-width: 1980px;
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    display: block;
 }
 
-header {
+header nav {
+    color: wheat;
+}
+
+header nav .menu {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+
+}
+
+header nav .logo {
+    color: white;
+    text-transform: capitalize;
+    padding: 0 5px;
+    font-size: 16px;
     background-color: black;
     text-align: center;
-    position: relative;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: flex-end;
+
+}
+
+@media (min-width:600px) {
+    header nav div .container {
+        display: flex;
+    }
+}
+
+header nav div .container {
+    display: flex
+}
+
+header .banner {
+    background-image: url(../img/background-hoody.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
 
 p {
