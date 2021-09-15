@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -61,14 +62,84 @@ header .banner {
     background-position: center;
     display: flex;
     min-height: 900px;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     flex-direction: column;
     color: white;
 }
 
+.banner-main {
+    display: flex;
+    font-size: 66px;
+    padding-right: 150px;
+}
+
+.banner-text {
+    text-align: right;
+    font-size: 19px;
+    padding-top: 30px;
+    padding-right: 310px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.banner-button {
+    font-size: 19px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    background-color: turquoise;
+    border: 0;
+    border-radius: 4px;
+    width: 141px;
+    height: 55px;
+    margin-right: 455px;
+    margin-top: 30px;
+}
+
+.background {
+    background: url(../img/background-aboutus.webp);
+    background-size: 100% auto;
+    background-position: center top;
+    position: relative;
+    height: 675px;
+}
+
+.background-text {
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+
+}
+
+.about-us {
+    text-align: right;
+    font-size: 38px;
+    padding-right: 680px;
+    padding-top: 10px;
+}
+
+.selection {
+    text-align: right;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 500px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.about-text {
+    text-align: right;
+    font-size: 16px;
+    padding-right: 310px;
+    padding-top: 20px;
+    font-family: "Roboto";
+    justify-content: left;
+}
+
 p {
-    text-align: center;
+    display: block;
 }
 
 h2,
