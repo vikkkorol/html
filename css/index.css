@@ -33,8 +33,8 @@ img {
 
 .menu {
     margin-left: auto;
-    margin-right: 700px;
-    margin-top: auto;
+    margin-right: 200px;
+    margin-top: 40px;
 }
 
 #nav {
@@ -56,6 +56,11 @@ img {
     padding-right: 70;
 }
 
+.menu a:hover {
+    color: turquoise;
+    text-decoration: underline;
+}
+
 #nav a {
     margin-right: 30px;
 }
@@ -74,6 +79,24 @@ ul {
     padding-inline-start: 90px;
 }
 
+.social-media {
+    text-align: center;
+    background-color: black;
+    margin-left: auto;
+    padding-right: 70px;
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+    display: inline;
+    padding-top: 40px;
+}
+
+.social-media img:hover {
+    background-color: black;
+}
 
 @media (min-width:600px) {
     header nav div .container {
