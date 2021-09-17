@@ -185,7 +185,24 @@ header .banner {
     font-family: "Roboto";
     justify-content: left;
 }
-
+.new-collection{
+    text-align: center;
+    font-size: 56px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-gap: 10px;
+    margin-left: 200px;
+  }
+  
+  .box {
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 150%;
+  }
 p {
     display: block;
 }
@@ -231,7 +248,7 @@ footer {
     text-align: center;
 }
 
-ooter {
+footer {
     background-color: black;
     text-align: center;
 }
