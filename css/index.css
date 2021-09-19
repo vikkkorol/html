@@ -296,6 +296,41 @@ h4 {
     grid-gap: 10px;
     margin-left: 200px;
   }
+  #contacts {
+      background-color: rgb(248, 245, 240);
+  }
+.contacts-wrapper {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-gap: 100px;
+    margin-left: 300px;
+    padding-bottom: 50px;
+  }
+.contacts-adress {
+    text-align: left;
+}
+.address {
+    font-size: 56px;
+    padding-bottom: 30px;
+}
+.address-h-c {
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.address-numbers {
+    font-family: roboto;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.text {
+    height: 50px;
+    width: 350px;
+    border-radius: 13px;
+    padding-left: 20px;
+}
 footer {
     background-color: black;
     text-align: center;
