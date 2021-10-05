@@ -128,6 +128,7 @@ header .banner {
     justify-content: center;
     flex-direction: column;
     color: white;
+    
 }
 
 .banner-main {
@@ -203,6 +204,15 @@ header .banner {
     width: 80px;
     height: 4px;
     margin-left: 750px;
+    background-color: turquoise;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.horizontal-line-about {
+    width: 80px;
+    height: 4px;
+    margin-left: 790px;
     background-color: turquoise;
     border: 0;
     margin-top: 30px;
