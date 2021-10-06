@@ -326,7 +326,7 @@ h4 {
   }
 .contacts-wrapper {
     display: grid;
-    grid-template-columns: 700px 700px;
+    grid-template-columns: 500px 500px;
     grid-gap: 100px;
     margin-left: 150px;
     padding-bottom: 50px;
@@ -355,6 +355,9 @@ h4 {
     width: 350px;
     border-radius: 13px;
     padding-left: 20px;
+}
+.contacts-form {
+  padding-left: 90px;
 }
 
 .coll-count {
@@ -583,3 +586,4 @@ h4 {
       margin-inline-end: 0px;
       padding-inline-start: 90px;
   }
+  
